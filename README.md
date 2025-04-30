@@ -512,4 +512,14 @@ Default Ports:
 - PostgreSQL: 5432
 - pgAdmin: 5050
 - SMTP dev server: 1025 (SMTP), 8025 (Web UI)
-# take-home
+
+# 📦 Take-Home Update: Docker Compose 
+🔁 Previous Command
+docker compose -f docker-compose.dev.yml up --build
+
+✅ New Command
+docker compose -f docker-compose.yml up --build
+
+
+
+
