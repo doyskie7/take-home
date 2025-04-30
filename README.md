@@ -509,17 +509,24 @@ Default Ports:
 
 - Frontend (React): 3000
 - Backend (Express): 8000
+- Backend (REDIS): 6379
 - PostgreSQL: 5432
 - pgAdmin: 5050
 - SMTP dev server: 1025 (SMTP), 8025 (Web UI)
 
 # 📦 Take-Home Update: Docker Compose 
-🔁 Previous Command
+🔁 Previous Command:
 docker compose -f docker-compose.dev.yml up --build
 
-✅ New Command
+✅ New Command:
 docker compose -f docker-compose.yml up --build
 
+📚 Installed Libraries
+🖥️ Client:
+Ant Design (Antd) – Integrated as the primary UI framework to accelerate development with well-designed, responsive components and consistent styling across the application.
+
+🛠️ Backend:
+Redis – Added as an in-memory data store to enable efficient caching for improved performance and reduced database load.
 
 
 
