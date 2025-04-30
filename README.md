@@ -522,10 +522,13 @@ docker compose -f docker-compose.dev.yml up --build
 docker compose -f docker-compose.yml up --build
 
 📚 Installed Libraries
+
 🖥️ Client:
+
 Ant Design (Antd) – Integrated as the primary UI framework to accelerate development with well-designed, responsive components and consistent styling across the application.
 
 🛠️ Backend:
+
 Redis – Added as an in-memory data store to enable efficient caching for improved performance and reduced database load.
 
 
